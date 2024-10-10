@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+
+}
+header {
+    background-color: #ffcc99;
+    color: #4d2600;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #4d2600;
+}
+
+section {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+
+.ingredientes {
+    margin-left: 20px;
+    text-align: left;
+    list-style: inside;
+    
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: left;
+
+}
+
+/* Estilos para la tabla nutricional */
+.tabla-nutricional {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.tabla-nutricional th, .tabla-nutricional td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla-nutricional th {
+    background-color: #ffcc99;
+    color: #4d2600;
+    text-align: center;
+}
+
+.tabla-nutricional tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla-nutricional tr:hover {
+    background-color: #ddd;
+}
+.encuesta {
+    text-align: center;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.navbar {
+    position: relative;
+    background-color: #ffcc99;
+    padding: 30px 20px; /* Aumenta el padding para hacerla más gruesa */
+}
+
+.navbar-collapse {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-link {
+    margin: 25px; /* Aumenta el espaciado entre los enlaces */
+    color: black; /* Cambia el color del texto de los enlaces */
+}
+
+footer {
+    background-color: #ffcc99;
+}
+
+.social-icons a {
+    font-size: 20px; /* Tamaño de los iconos */
+    margin: 25px;
+}
+
+.additional-info {
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.form-inline {
+    margin-top: 10px; /* Espacio entre el texto y el formulario */
+}
+
+.social-icons a .fa-facebook-f {
+    color: #3b5998; /* Color de Facebook */
+}
+
+.social-icons a .fa-twitter {
+    color: #1da1f2; /* Color de Twitter */
+}
+
+.social-icons a .fa-instagram {
+    color: #e1306c; /* Color de Instagram */
+}
+
+.social-icons a .fa-pinterest {
+    color: #bd081c; /* Color de Pinterest */
+}
+
